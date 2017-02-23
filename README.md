@@ -1,22 +1,32 @@
 # Greenfoot
 
-<h2><b> Gliederung</b> </h2>
 <ul>
 <li><a href="#Gre">1. Greenfoot Einleitung</a></li> 
 <li><a href="#1.">2. Meet the Greeps</a></li>
-<li><a href="#Imp">3. Impressum</a></li>
+<li><a href="#2.">3. FatCat</a></li>
+<li><a href="#3.">4. Little Crab</a></li>
+<li><a href="#Imp">5. Impressum</a></li>
 </ul>
 
 <h3>
 <a id="Gre">1. <b>Greenfoot</b></a> 
 </h3>
 
+
 <h3>
 <a id="1.">2. <b>Meet the Greeps</b></a> 
 </h3>
 
 <h3>
-<a id="Imp">3. <b>Impressum</b></a> 
+<a id="2.">3. <b>FatCat</b></a> 
+</h3>
+
+<h3>
+<a id="3.">4. <b>Little Crab</b></a> 
+</h3>
+
+<h3>
+<a id="Imp">5. <b>Impressum</b></a> 
 </h3>
 
 <table>
