@@ -8,15 +8,15 @@
 </ul>
 
 <h3>
-<a id="Gre">1. <b>Greenfoot</b> </a> 
+<a id="Gre">1. <b>Greenfoot</b></a> 
 </h3>
 
 <h3>
-<a id="1.">2. <b>Meet the Greeps</b> </a> 
+<a id="1.">2. <b>Meet the Greeps</b></a> 
 </h3>
 
 <h3>
-<a id="Imp">3. <b>Impressum</b> </a> 
+<a id="Imp">3. <b>Impressum</b></a> 
 </h3>
 
 <table>
