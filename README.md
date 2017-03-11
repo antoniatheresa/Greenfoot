@@ -42,6 +42,29 @@
 <a id="2.">3. <b>FatCat</b></a> 
 </h3>
 
+<p> Dieses Szenario beinhaltete die "World Class" "CatWorld" und die "Actor Classes" "Cat" und "My Cat". In der "CatWorld" ist eine dicke Katze zu sehen.</p>
+
+<p> Im "cheat sheet" des "MyCat" "class editors" sindverschiedene "commands" zu sehen. Diese "Hotkeys" kann in den "oublic void act" durch Anklicken oder Einfügen des davor stehenden Symbols eingesetzt werden.</p>
+
+<p> Mithilfe der Esc-Taste können die "Hotkeys" aus der Methode gelöscht werden. Befindet sich ein Text im "Hotkey", kann er durch die Esc-Funktion nicht mehr entfernt werden.</p>
+
+Durch Drücken der "Space"-Taste in der act-Methode können weitere Befehle eingesetzt werden. Diese können nicht nur durch die Esc-Funktion enfernt werden, sondern auchh durch die "Backspace"-Taste oder die "delete"-Funktion. Diese kann genutzt werden, indem man den "Hotkey" mit der rechten Maustaste anklickt und im Kontext-Menü delete auswählt.</p>
+
+Durch die eingefügten Methodendreht sich der "Actor" (MyCat) in einem bestimmten Winkel um einen festgelegten Punkt in der "World Class" (CatWorls).</p>
+
+Um zu verhindern, dass der "Actor" (MyCat) eine Methode ausführt, ohne diese aus der "act-Methode" zu entfernen, muss die Funktion "disable" ausgeführt werden. Dazu muss man durch gedrückz halten der "Shift"-Taste und Bewegen des "Frame-Cursor" markiert werden. Dazu zieht man den "Frame-Cursor" über die Methode Durch anklicken der markierten Methode mit der rechten Maustaste kann im Kontext-Menü "disable" ausgewählt werden. Der "Actor" (MyCat) führt diese Methode nicht mehr aus.</p>
+
+<p> Wenn eine Methode wieder aktiviert werden soll, muss diese zunächst wieder durch die "Shift"-Taste und den "Frame-Cursor" markiert werden. Durch einen Klick mit der rechten Maustaste kann im Kontext-Menü die Funktion "enable" ausgewählt werden. Dies bewirkt, dass die Methode im im Editor erneut sichtbar wird un der "Actor" (MyCat) die Methode in der "CatWorld" wieder ausführt.</p>
+
+<p> Nach einem Rechtsklick auf den Actor (MyCat) in der "CatWorld" erscheinen verschiedene mögliche Funktionen. Bei Berühren des Menüpunkts "inherited from Actor" können Änderungen an der Umgebung und Interaktion des "Actors" mit der "World" vorgenommen werden. Bei dem Menüpunkt "inherited from Cat" werden dem Benutzer verschiedene Optionen zum Zustand und den Handlungen des "Actors" (MyCat) angeboten.</p>
+
+<p> Wählt man im "Class Editor" das Feld"extends Cat" aus, so erhält man ein ähnliches Bild wie beim Anklicken des "Actord" (MyCat) mit der rechten Maustaste. Auch hier kann zwischen "inherited from Actor" und "inherited from Cat" gwählt werden. Jedoch ist die Auswahl an Methoden in der "CatWorld" kleiner, als im "Class Editor".</p>
+
+<p> Das Layout des "Class Editors" (Cat) kann im "view"-Menü verändert werden. Durch Auswählen der "Birds-Eye"-Funktion werden nur die methoden Gruppen sichtbar (public void..), nicht die Methoden bzw. Hotkeys. Um die "Hotkeys" sehen zu können, müssen die Methoden angeklickt werden. Durch diese Funktion wird er "Class Edditor" übersichtlicher.</p>
+
+<p> Drückt man in einem freien Feld den "shortcut" "Strg" und "Space" zur automatischen Quelltext Ergänzung zeitgleich, so erscheint eine Art Kontext-Menü, aus dem man verschiedene Methoden auswählen kann., die in die entsprechende "public void"-Methode eingefügt werden können.<br>
+Tippt man nun einen Buchstaben, so werden alle Methoden angezeigt, die mit dem ausgewählten Buchstaben beginnen. Durch Anklicken können diese Methoden eingefügt werden.</p>
+
 <h3>
 <a id="3.">4. <b>Little Crab</b></a> 
 </h3>
