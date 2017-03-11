@@ -1,7 +1,7 @@
 # Greenfoot
 
 <ul>
-<li><a href="#Gre">1. Greenfoot Einleitung</a></li> 
+<li><a href="#Gre">1. Einführung in Greenfoot</a></li> 
 <li><a href="#1.">2. Meet the Greeps</a></li>
 <li><a href="#2.">3. FatCat</a></li>
 <li><a href="#3.">4. Little Crab</a></li>
