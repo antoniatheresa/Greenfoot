@@ -4,8 +4,7 @@
 <li><a href="#Gre">1. Einführung in Greenfoot</a></li> 
 <li><a href="#1.">2. Meet the Greeps</a></li>
 <li><a href="#2.">3. FatCat</a></li>
-<li><a href="#3.">4. Little Crab</a></li>
-<li><a href="#Imp">5. Impressum</a></li>
+<li><a href="#Imp">4. Impressum</a></li>
 </ul>
 
 <h3>
@@ -72,12 +71,9 @@ Tippt man nun einen Buchstaben, so werden alle Methoden angezeigt, die mit dem a
 <p> Soll der "Actor" eine andere Methode ausführen, wenn die Bedingung nicht erfüllt wurde, wird der "if-else" Hotkey eingefügt werden. Der "if"-Hotkey wird nun um eine "else"-Spalte ergänzt, in die die Methode eingefügt werden muss, die der "Actor audführen soll, wenn die "if"-Bedingung nicht erfüllt wird. In diesem Beispiel soll der "Actor", wenn er müde ist schlafen und hooray rufen. Ist er allerdings nicht mürde, ruft er nur hooray. Dazu wird der "if-else"-Befehl wie beschrieben angewendet. Damit die Bedingung "isTired" erfüllt, und die "if"-Methode ausgeführt werden kann, muss der "Actor" müde werden. Dazu muss die boolsche Variable "isTired", nachdem der "Actor" getanzt hat auf "true" gesetzt werden. Da die boolsche Variable "isBored" von Anfang an als "true" initiiert ist, beginnt der "Actor" beim Starten der "act"-Methode mit dem tanzen und wird daraufhin müde, was die Methode auslöst, die den "Actor" schlafen lässt. </p>
 
 
-<h3>
-<a id="3.">4. <b>Little Crab</b></a> 
-</h3>
 
 <h3>
-<a id="Imp">5. <b>Impressum</b></a> 
+<a id="Imp">4. <b>Impressum</b></a> 
 </h3>
 
 <table>
