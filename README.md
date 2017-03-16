@@ -65,6 +65,13 @@ Um zu verhindern, dass der "Actor" (MyCat) eine Methode ausführt, ohne diese au
 <p> Drückt man in einem freien Feld den "shortcut" "Strg" und "Space" zur automatischen Quelltext Ergänzung zeitgleich, so erscheint eine Art Kontext-Menü, aus dem man verschiedene Methoden auswählen kann., die in die entsprechende "public void"-Methode eingefügt werden können.<br>
 Tippt man nun einen Buchstaben, so werden alle Methoden angezeigt, die mit dem ausgewählten Buchstaben beginnen. Durch Anklicken können diese Methoden eingefügt werden.</p>
 
+<p> Da die "MyCat"-Klasse eine Unterklasse der "Cat"-Klasse ist können alle Methoden, die in der "Actor"-Klasse "Cat" programmiert sind, durch einen einfachen festgelegten Beferehl in der "MyCat"-Klasse eingefügt werden, ohne neu programmiert werden zu müssen." Dmait der "Actoe" "MyCat" isst, schläft und tanzt sobald act gestartet wird, müssen die Methoden "eat", "sleep(5)" und"dance" in die "Act"-Methode eingefügt werden.</p>
+
+<p> Durch den "if-Befehl" führt der "Actor" nur dann die Methode aus, wenn die angegebene Bedingung erfüllt ist. In diesem Fall schläft der "Actor" "MyCat" nur dann, wenn er müde ist, also die Bedingung "isTired" erfüllt ist. Diese boolschen Variablen, müssen als private boolsche Variablen für den Actor im "Class Editor" initiiert werden. Dazu setzt man die Variablen "isTired" und "isHungry" auf false bzw. "isBored" auf true.</p>
+
+<p> Soll der "Actor" eine andere Methode ausführen, wenn die Bedingung nicht erfüllt wurde, wird der "if-else" Hotkey eingefügt werden. Der "if"-Hotkey wird nun um eine "else"-Spalte ergänzt, in die die Methode eingefügt werden muss, die der "Actor audführen soll, wenn die "if"-Bedingung nicht erfüllt wird. In diesem Beispiel soll der "Actor", wenn er müde ist schlafen und hooray rufen. Ist er allerdings nicht mürde, ruft er nur hooray. Dazu wird der "if-else"-Befehl wie beschrieben angewendet. Damit die Bedingung "isTired" erfüllt, und die "if"-Methode ausgeführt werden kann, muss der "Actor" müde werden. Dazu muss die boolsche Variable "isTired", nachdem der "Actor" getanzt hat auf "true" gesetzt werden. Da die boolsche Variable "isBored" von Anfang an als "true" initiiert ist, beginnt der "Actor" beim Starten der "act"-Methode mit dem tanzen und wird daraufhin müde, was die Methode auslöst, die den "Actor" schlafen lässt. </p>
+
+
 <h3>
 <a id="3.">4. <b>Little Crab</b></a> 
 </h3>
