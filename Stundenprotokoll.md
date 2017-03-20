@@ -33,7 +33,7 @@ Im Anschluss daran haben wir mit der ersten "Lernaktivität Meet the Greeps" beg
 <h3>
 <a id="4"> <b> 4. Informatikstunde 08.03.2017 </b></a> 
 </h3> 
-<p>Da wir die Lernaktivität "Meet the Greeps" beendet und fertig dokumentiert haben, konnten wir in dieser Stunde mit dem ersten Teil der zweiten Lernaktivität "FatCat" beginnen. Diese Lernaktivität haben wir allerdings in der Stunde nicht beenden können. </p>
+<p>Da wir die Lernaktivität "Meet the Greeps" beendet und fertig dokumentiert haben, konnten wir in dieser Stunde mit dem ersten Teil der zweiten Lernaktivität "FatCat" beginnen. Diese Lernaktivität haben wir allerdings in der Stunde nicht beenden können, da der Computer zunächst nicht mit dem Internet verbunden werden konnte und wir deshalb nur mit einem temporären Profil angemeldet waren. </p>
 
 <h3>
 <a id="5"> <b> 5. Informatikstunde 09.03.2017 </b></a> 
@@ -43,12 +43,12 @@ Im Anschluss daran haben wir mit der ersten "Lernaktivität Meet the Greeps" beg
 <h3>
 <a id="6"> <b> 6. Informatikstunde 15.03.2017 </b></a> 
 </h3> 
-Beginn mit Lernaktivität 3 FatCat
+<p> In dieser Informatikstunde haben wir mit der dritten Lernaktivität "FatCat" begonnen. Da wir die Aufgabenstellung etwas missverstanden haben sind wir jedoch nicht mit der Lernaktivität fertig geworden. Wir sollten mittels verschiedener Methoden eine Routine für den Actor "MyCat" zu entwickeln. Diese Methoden waren schon in der Actor-Klasse, aus der die "subclass" "MyCat" hervorgeht vorprogrammiert und mussten lediglich in die "act-Methode" eingesetzt werden. Diesen Aspekt haben wwir zunächst missverstanden und versucht die Methoden neu zu programmieren.</p>
 
 <h3>
 <a id="7"> <b> 7. Informatikstunde 16.03.2017 </b></a> 
 </h3> 
-Beenden und Dokumentation der Lernaktivität 3 FatCat.
+<p>An diesem Tag konnte Antonia leider nicht am Projekt mitarbeiten, da sie einen Hospitationstermin im Kinderkrankenhaus wahrgenommen hat. Deshalb haben wir es in dieser Stunde nur geschaftt, die Lernaktivität 3 "FatCat" zu beenden und zu dokumentieren. Es ging darum mithilfe des "if"-Befehls den Actor bestimmte Handlungen bei festgelegten Vorraussetzungen ausführen zu lassen</p>
 
 <h3>
 <a id="8"> <b> 8. Informatikstunde 21.03.2017 </b></a> 
