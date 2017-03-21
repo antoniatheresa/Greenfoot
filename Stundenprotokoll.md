@@ -53,6 +53,7 @@ Im Anschluss daran haben wir mit der ersten "Lernaktivität Meet the Greeps" beg
 <h3>
 <a id="8"> <b> 8. Informatikstunde 21.03.2017 </b></a> 
 </h3> 
+<p> Ab dieser Informatikstunde wollten wir die Dokumentation unseres Projektes fertigstellen. Nachdem wir eine Tatstatur sowie eine Maus besorgt hatten, haben wir mit dem Hochladen der Bilder zu unserem Projekt begonnen. Während wir damit beschäftigt waren, die Bilder in die Dokumentation auf Github Pages einzufügen, betrat Frau Dr. Witte den Computerraum. Sie wollte sich auch unser altes Projekt ansehen. Nachdem wir ihr einen groben Überblick über das Blockprogrammieren in StarLogoTNG und die Dokumentation auf Github Pages gegeben hatten, wandte sie sich einer anderen Gruppe zu und wir konnten mit dem Einfügen der Bilder fortfahren.
 
 <h3>
 <a id="9"> <b> 9. Informatikstunde 23.03.2017 </b></a> 
