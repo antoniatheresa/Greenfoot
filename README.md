@@ -28,9 +28,11 @@
 
 <p> Wird nun der "run"- Befehl betätigt, dreht sich der Actor ("Greep") auf der Stelle im Uhrzeigersinn. Wenn man den Parameter (3) im "turn"- Befehl benutzt, dreht der Actor in einem bestimmten Winkel.</p>
 
-<p><img src="Greenfoot Images/Meet the Creeps move 4 and turn 3.PNG" alt="Meet the Creeps move 4 and turn 3" style="width:1168px;height:114px;border:0;"></p>
+<img src="/antoniatheresa/Greenfoot/blob/master/Greenfoot%20Images/Meet%20the%20Creeps%20turn%203.PNG?raw=true" alt="Meet the Creeps turn 3.PNG">
 
 <p> Der Actor (Greep) bewegt sich im Uhrzeigersinn in einem bestimmten Radius. Bei Kontakt mit anderen Actors (Tomato) sammelt er diese nicht ein. </p>
+
+<p><img src="Greenfoot Images/Meet the Creeps move 4 and turn 3.PNG" alt="Meet the Creeps move 4 and turn 3" style="width:1168px;height:114px;border:0;"></p>
 
 <p> Durch die act Methode if (isAtEdge( ) ) -- turn (13) und den davon unabhängigen Befehl move (4) bewegt sich der Actor (Greep) durch die "world"- Klasse. Wenn er den Rand berührt, dreht er sich durch den im Parameter (13) bestimmten Winkel und bewegt sich erneut geradeaus durch die "world"- Klasse. </p>
 
