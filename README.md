@@ -16,13 +16,19 @@
 </h3> 
 <p> In diesem Szenario gibt es in der "world class" die Klasse "planet" und in der "actor class" die Klassen "greep" und "tomato". Das Startbild des Szenarios zeigt eine Instanz aus der "greep"-Klasse und mehrere Instanzen aus der "tomato"-Klasse. </p>
 
-<p><img src="Greenfoot Images/Meet the Creeps world.PNG" alt="Meet the Creeps world" style="width:803px;height:603px;border:0;"></p>
+<p><img src="Greenfoot Images/Meet the Creeps leiste.PNG" alt="Meet the Creeps leiste" style="width:145px;height:235px;border:0;"></p>
 
-<p> Der Actor ("Greep") bewegt sich durch die "world class" "planet". Dabei sammelt er bei Kontakt mit anderen "Actors" (tomato) diese ein. Stößt er gegen den Rand der "world", ändert ere seine Richtung in stets dem gleichen Winkel. Deshalb bleiben die übrigen zwei Actors ("tomato") in der "world", da der Actor (Greep) nicht an sie herankommt. </p> 
+<p> Der Actor ("Greep") bewegt sich durch die "world class" "planet". Dabei sammelt er bei Kontakt mit anderen "Actors" (tomato) diese ein. Stößt er gegen den Rand der "world", ändert er seine Richtung in stets dem gleichen Winkel. Deshalb bleiben die übrigen zwei Actors ("tomato") in der "world", da der Actor (Greep) nicht an sie herankommt. </p> 
+
+<p><img src="Greenfoot Images/Meet the Creeps world.PNG" alt="Meet the Creeps world" style="width:803px;height:603px;border:0;"></p>
 
 <p> Der Actor ("Greep") kann mit der Maus in der"world" verschoben werden. Wird der Befehl "run" ausgelöst, läuft er geradeaus durch die "world" und bleibt bei Kontakt mit dem Rand stehen. Er sammelt auch keine anderen Actors "tomato" ein. Durch den Parameter (4) werden in der Methode die Informationen übergeben, die für die Bewegung notwendig sind. </p>
 
+<p><img src="Greenfoot Images/Meet the Creeps move 4.PNG" alt="Meet the Creeps move 4" style="width:1174px;height:99px;border:0;"></p>
+
 <p> Wird nun der "run"- Befehl betätigt, dreht sich der Actor ("Greep") auf der Stelle im Uhrzeigersinn. Wenn man den Parameter (3) im "turn"- Befehl benutzt, dreht der Actor in einem bestimmten Winkel.</p>
+
+<p><img src="Greenfoot Images/Meet the Creeps move 4 and turn 3.PNG" alt="Meet the Creeps move 4 and turn 3" style="width:1168px;height:114px;border:0;"></p>
 
 <p> Der Actor (Greep) bewegt sich im Uhrzeigersinn in einem bestimmten Radius. Bei Kontakt mit anderen Actors (Tomato) sammelt er diese nicht ein. </p>
 
