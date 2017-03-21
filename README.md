@@ -34,13 +34,24 @@
 
 <p> Durch die act Methode if (isAtEdge( ) ) -- turn (13) und den davon unabhängigen Befehl move (4) bewegt sich der Actor (Greep) durch die "world"- Klasse. Wenn er den Rand berührt, dreht er sich durch den im Parameter (13) bestimmten Winkel und bewegt sich erneut geradeaus durch die "world"- Klasse. </p>
 
+<p><img src="Greenfoot Images/Meet the Creeps isAtEdge.PNG" alt="Meet the Creeps isAtEdge" style="width:1176px;height:151px;border:0;"></p>
+
 <p> Durch die hinzugefügten Befehle werden die Actors (tomato) entfernt, sobald der Actor ("Greep") diese berührt. </p>
+
+<p><img src="Greenfoot Images/Meet the Creeps remove tomatos.PNG" alt="Meet the Creeps remove tomatos" style="width:1169px;height:206px;border:0;"></p>
 
 <p> Der Actor ("Greep") bewegt sich automatisch geradeaus durch die "world"- Klasse. Wird die linke Pfeiltaste gedrückt, erhält er den Befehl, sich um (-5) zu drehen. Wird die rechte Pfeiltaste betätigt, dreht er sich um (5). </p>
 
+<p><img src="Greenfoot Images/Meet the Creeps is keydown.PNG" alt="Meet the Creeps is keydown" style="width:1170px;height:304px;border:0;"></p>
+
 <p> Durch die hinzugefügten Befehle wird das Bild des Actors (Greep) verändert, sobald ein Actor (tomato) entfernt wurde. Bei dem Bild wird zwischen einer Tomate und mehreren Tomaten unterschieden. Zählt der Counter aus dem folgenden Schritt mehr als zwei gesammelte Actors (tomato), wird das Bild "greepwithmorefood" eingesetzt. </p>
 
+<p><img src="Greenfoot Images/Meet the Creeps greepwithfood.PNG" alt="Meet the Creeps greepwithfood" style="width:335px;height:237px;border:0;"></p>
+<p><img src="Greenfoot Images/Meet the Creeps withmorefood.PNG" alt="Meet the Creeps withmorefood" style="width:417px;height:408px;border:0;"></p>
+
 <p> Im Editor des Actors (Greep) fügt man im Abschnitt "fields" den Befehl "private int tomatoes --0" hinzu. Dadurch wird die gesammelte Anzahl der Actors (tomato) zu Beginn auf 0 gesetzt. In der "if (isTouching (tomato.class)-Spalte muss der Befehl "tomatoes --tomatoes+1" eingegeben werden, damit der Zähler pro eingesammelte Tomate um 1 erweitert wird. </p>
+
+<p><img src="Greenfoot Images/Meet the Creeps int tomatos.PNG" alt="Meet the Creeps int tomatos" style="width:435px;height:542px;border:0;"></p>
 
 
 
