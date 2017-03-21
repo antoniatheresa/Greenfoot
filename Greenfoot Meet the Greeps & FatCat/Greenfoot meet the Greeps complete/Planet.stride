@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Planet" extends="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+        <import target="java.awt.Color" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <delegate target="super" params="800,600,1" params-java="800, 600, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="addObject(new Greep(),320,288)" expression-java="addObject( new Greep(), 320, 288)" enable="true"/>
+                <call expression="addObject(new Tomato(),627,133)" expression-java="addObject( new Tomato(), 627, 133)" enable="true"/>
+                <call expression="addObject(new Tomato(),680,408)" expression-java="addObject( new Tomato(), 680, 408)" enable="true"/>
+                <call expression="addObject(new Tomato(),480,464)" expression-java="addObject( new Tomato(), 480, 464)" enable="true"/>
+                <call expression="addObject(new Tomato(),408,147)" expression-java="addObject( new Tomato(), 408, 147)" enable="true"/>
+                <call expression="addObject(new Tomato(),129,128)" expression-java="addObject( new Tomato(), 129, 128)" enable="true"/>
+                <call expression="addObject(new Tomato(),127,403)" expression-java="addObject( new Tomato(), 127, 403)" enable="true"/>
+                <call expression="addObject(new Tomato(),573,267)" expression-java="addObject( new Tomato(), 573, 267)" enable="true"/>
+                <call expression="addObject(new Tomato(),244,556)" expression-java="addObject( new Tomato(), 244, 556)" enable="true"/>
+                <call expression="addObject(new Tomato(),325,23)" expression-java="addObject( new Tomato(), 325, 23)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>

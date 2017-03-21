@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="MyCat" extends="Cat" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="false"/>
+        <import target="greenfoot.*" enable="false"/>
+        <import target="java.awt.Color" enable="false"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <method access="public" type="void" name="act" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="eat()" expression-java="eat()" enable="true"/>
+                <call expression="dance()" expression-java="dance()" enable="true"/>
+                <call expression="sleep(5)" expression-java="sleep(5)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>

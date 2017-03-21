@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="CatWorld" extends="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve">An empty small world with a cat.
+
+@author Michael Koelling
+@version 1.0 (gf3)</javadoc>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+        <import target="java.awt.Color" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Create a world with one cat in it</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,340,1" params-java="600, 340, 1"/>
+            <body>
+                <call expression="addObject(new MyCat(),300,200)" expression-java="addObject( new MyCat(), 300, 200)" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods/>
+</class>

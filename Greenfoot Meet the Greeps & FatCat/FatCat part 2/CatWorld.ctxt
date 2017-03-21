@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CatWorld
+comment0.text=\r\n\ An\ empty\ small\ world\ with\ a\ cat.\r\n\ \r\n\ @author\ Michael\ Koelling\r\n\ @version\ 1.0\ (gf3)\r\n
+comment1.params=
+comment1.target=CatWorld()
+comment1.text=\r\n\ Create\ a\ world\ with\ one\ cat\ in\ it\r\n
+numComments=2

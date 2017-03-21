@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="MyCat" extends="Cat" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="false"/>
+        <import target="greenfoot.*" enable="false"/>
+        <import target="java.awt.Color" enable="false"/>
+    </imports>
+    <implements/>
+    <fields>
+        <variable access="private" type="boolean" name="isTired" value="false" value-java="false" enable="true"/>
+        <variable access="private" type="boolean" name="isBored" value="true" value-java="true" enable="true"/>
+        <variable access="private" type="boolean" name="isHungry" value="false" value-java="false" enable="true"/>
+    </fields>
+    <constructors/>
+    <methods>
+        <method access="public" type="void" name="act" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <if condition="isAlone()" condition-java="isAlone()" enable="true">
+                    <ifStatements>
+                        <call expression="sleep(5)" expression-java="sleep(5)" enable="true"/>
+                    </ifStatements>
+                </if>
+                <if condition="isBored" condition-java="isBored" enable="false">
+                    <ifStatements>
+                        <call expression="dance()" expression-java="dance()" enable="false"/>
+                        <assign dest="isTired" dest-java="isTired" src="true" src-java="true" enable="false"/>
+                    </ifStatements>
+                </if>
+                <if condition="isTired" condition-java="isTired" enable="false">
+                    <ifStatements>
+                        <call expression="sleep(5)" expression-java="sleep(5)" enable="false"/>
+                        <call expression="shoutHooray()" expression-java="shoutHooray()" enable="false"/>
+                    </ifStatements>
+                    <else>
+                        <call expression="shoutHooray()" expression-java="shoutHooray()" enable="false"/>
+                    </else>
+                </if>
+                <if condition="isHungry" condition-java="isHungry" enable="false">
+                    <ifStatements>
+                        <call expression="eat()" expression-java="eat()" enable="false"/>
+                    </ifStatements>
+                </if>
+            </body>
+        </method>
+    </methods>
+</class>

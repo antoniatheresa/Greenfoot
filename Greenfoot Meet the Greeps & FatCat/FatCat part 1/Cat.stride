@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Cat" extends="Actor" enable="true" strideversion="1">
+    <javadoc xml:space="preserve">A cat. Can do some things cats do. Or not.
+
+@author Michael Koelling
+@version 1.0 (gf3)</javadoc>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+        <import target="java.awt.Color" enable="true"/>
+    </imports>
+    <implements/>
+    <fields>
+        <variable access="private" type="boolean" name="tired" value="false" value-java="false" enable="true"/>
+        <variable access="private" type="boolean" name="hungry" value="false" value-java="false" enable="true"/>
+        <variable access="private" type="boolean" name="bored" value="true" value-java="true" enable="true"/>
+    </fields>
+    <constructors/>
+    <methods>
+        <method access="public" type="void" name="act" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body/>
+        </method>
+        <method access="public" type="void" name="walkLeft" enable="true">
+            <javadoc xml:space="preserve">Walk a bit to the left. 'distance' determines how far to walk. Use small numbers (1 to 10).</javadoc>
+            <params>
+                <param type="int" name="distance"/>
+            </params>
+            <throws/>
+            <body>
+                <call expression="walk(distance,-10,&quot;cat-walk.png&quot;,&quot;cat-walk-2.png&quot;)" expression-java="walk(distance, -10, &quot;cat-walk.png&quot;, &quot;cat-walk-2.png&quot;)" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" name="walkRight" enable="true">
+            <javadoc xml:space="preserve">Walk a bit to the right. 'distance' determines how far to walk. Use small numbers (1 to 10).</javadoc>
+            <params>
+                <param type="int" name="distance"/>
+            </params>
+            <throws/>
+            <body>
+                <call expression="walk(distance,10,&quot;cat-walk-right.png&quot;,&quot;cat-walk-right-2.png&quot;)" expression-java="walk(distance, 10, &quot;cat-walk-right.png&quot;, &quot;cat-walk-right-2.png&quot;)" enable="true"/>
+            </body>
+        </method>
+        <method access="private" type="void" name="walk" enable="true">
+            <javadoc xml:space="preserve">Internal walk method. Walk a given distance into a given direction, using given images.</javadoc>
+            <params>
+                <param type="int" name="distance"/>
+                <param type="int" name="direction"/>
+                <param type="String" name="img1"/>
+                <param type="String" name="img2"/>
+            </params>
+            <throws/>
+            <body>
+                <foreach type="int" var="i" collection="1..distance" collection-java="lang.stride.Utility.makeRange(1, distance)" enable="true">
+                    <call expression="setImage(img1)" expression-java="setImage(img1)" enable="true"/>
+                    <call expression="wait(4)" expression-java="wait(4)" enable="true"/>
+                    <call expression="setLocation(getX()+direction,getY())" expression-java="setLocation(getX() + direction, getY())" enable="true"/>
+                    <call expression="setImage(img2)" expression-java="setImage(img2)" enable="true"/>
+                    <call expression="wait(4)" expression-java="wait(4)" enable="true"/>
+                    <call expression="setLocation(getX()+direction,getY())" expression-java="setLocation(getX() + direction, getY())" enable="true"/>
+                </foreach>
+                <call expression="setImage(&quot;cat.png&quot;)" expression-java="setImage(&quot;cat.png&quot;)" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" name="dance" enable="true">
+            <javadoc xml:space="preserve">Do a dance. Cool, Baby!
+(Dancing makes you tired.)</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="Greenfoot.playSound(&quot;music.wav&quot;)" expression-java="Greenfoot.playSound(&quot;music.wav&quot;)" enable="true"/>
+                <foreach type="int" var="i" collection="0..1" collection-java="lang.stride.Utility.makeRange(0, 1)" enable="true">
+                    <call expression="setImage(&quot;cat-dance.png&quot;)" expression-java="setImage(&quot;cat-dance.png&quot;)" enable="true"/>
+                    <call expression="wait(10)" expression-java="wait(10)" enable="true"/>
+                    <call expression="setImage(&quot;cat.png&quot;)" expression-java="setImage(&quot;cat.png&quot;)" enable="true"/>
+                    <call expression="wait(8)" expression-java="wait(8)" enable="true"/>
+                    <call expression="setImage(&quot;cat-dance-2.png&quot;)" expression-java="setImage(&quot;cat-dance-2.png&quot;)" enable="true"/>
+                    <call expression="wait(8)" expression-java="wait(8)" enable="true"/>
+                    <call expression="setImage(&quot;cat.png&quot;)" expression-java="setImage(&quot;cat.png&quot;)" enable="true"/>
+                    <call expression="wait(8)" expression-java="wait(8)" enable="true"/>
+                </foreach>
+                <foreach type="int" var="i" collection="0..4" collection-java="lang.stride.Utility.makeRange(0, 4)" enable="true">
+                    <call expression="setImage(&quot;cat-dance.png&quot;)" expression-java="setImage(&quot;cat-dance.png&quot;)" enable="true"/>
+                    <call expression="wait(8)" expression-java="wait(8)" enable="true"/>
+                    <call expression="setImage(&quot;cat-dance-2.png&quot;)" expression-java="setImage(&quot;cat-dance-2.png&quot;)" enable="true"/>
+                    <call expression="wait(6)" expression-java="wait(6)" enable="true"/>
+                </foreach>
+                <call expression="setImage(&quot;cat.png&quot;)" expression-java="setImage(&quot;cat.png&quot;)" enable="true"/>
+                <assign dest="tired" dest-java="tired" src="true" src-java="true" enable="true"/>
+                <assign dest="hungry" dest-java="hungry" src="true" src-java="true" enable="true"/>
+                <assign dest="bored" dest-java="bored" src="false" src-java="false" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" name="shoutHooray" enable="true">
+            <javadoc xml:space="preserve">It's really what the method name says: shout "Hooray".</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="setImage(&quot;cat-speak.png&quot;)" expression-java="setImage(&quot;cat-speak.png&quot;)" enable="true"/>
+                <call expression="Greenfoot.playSound(&quot;hooray.wav&quot;)" expression-java="Greenfoot.playSound(&quot;hooray.wav&quot;)" enable="true"/>
+                <call expression="wait(20)" expression-java="wait(20)" enable="true"/>
+                <call expression="setImage(&quot;cat.png&quot;)" expression-java="setImage(&quot;cat.png&quot;)" enable="true"/>
+                <assign dest="bored" dest-java="bored" src="false" src-java="false" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" name="sleep" enable="true">
+            <javadoc xml:space="preserve">Sleep for a while. The parameter determines how long to sleep. Use small numbers. 
+A value of 1 will sleep for a couple of seconds or so.</javadoc>
+            <params>
+                <param type="int" name="howLong"/>
+            </params>
+            <throws/>
+            <body>
+                <foreach type="int" var="i" collection="1..howLong" collection-java="lang.stride.Utility.makeRange(1, howLong)" enable="true">
+                    <foreach type="int" var="j" collection="1..4" collection-java="lang.stride.Utility.makeRange(1, 4)" enable="true">
+                        <call expression="setImage(&quot;cat-sleep-&quot;+j+&quot;.png&quot;)" expression-java="setImage(&quot;cat-sleep-&quot; + j + &quot;.png&quot;)" enable="true"/>
+                        <call expression="wait(10)" expression-java="wait(10)" enable="true"/>
+                    </foreach>
+                </foreach>
+                <call expression="setImage(&quot;cat.png&quot;)" expression-java="setImage(&quot;cat.png&quot;)" enable="true"/>
+                <assign dest="tired" dest-java="tired" src="false" src-java="false" enable="true"/>
+                <assign dest="bored" dest-java="bored" src="true" src-java="true" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" name="eat" enable="true">
+            <javadoc xml:space="preserve">Eat some pizza!</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <foreach type="int" var="i" collection="0..3" collection-java="lang.stride.Utility.makeRange(0, 3)" enable="true">
+                    <call expression="setImage(&quot;cat-eat.png&quot;)" expression-java="setImage(&quot;cat-eat.png&quot;)" enable="true"/>
+                    <call expression="wait(8)" expression-java="wait(8)" enable="true"/>
+                    <call expression="setImage(&quot;cat-eat-2.png&quot;)" expression-java="setImage(&quot;cat-eat-2.png&quot;)" enable="true"/>
+                    <call expression="wait(6)" expression-java="wait(6)" enable="true"/>
+                </foreach>
+                <call expression="setImage(&quot;cat.png&quot;)" expression-java="setImage(&quot;cat.png&quot;)" enable="true"/>
+                <assign dest="tired" dest-java="tired" src="true" src-java="true" enable="true"/>
+                <assign dest="hungry" dest-java="hungry" src="false" src-java="false" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="boolean" name="isAlone" enable="true">
+            <javadoc xml:space="preserve">Return true if the cat is alone here.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="int" name="numberOfCats" value="getWorld().getObjects(Cat.class).size()" value-java="getWorld().getObjects(Cat.class).size()" enable="true"/>
+                <return value="numberOfCats&lt;2" value-java="numberOfCats &lt; 2" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="boolean" name="hasCompany" enable="true">
+            <javadoc xml:space="preserve">Return true if the cat is not alone here.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <return value="!isAlone()" value-java=" ! isAlone()" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="boolean" name="isHungry" enable="true">
+            <javadoc xml:space="preserve">Return true if the cat is hungry.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <return value="hungry" value-java="hungry" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="boolean" name="isSleepy" enable="true">
+            <javadoc xml:space="preserve">Return true if the cat is sleepy.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <return value="tired" value-java="tired" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="boolean" name="isBored" enable="true">
+            <javadoc xml:space="preserve">Return true if the cat is bored.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <return value="bored" value-java="bored" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" name="wait" enable="true">
+            <javadoc xml:space="preserve">Wait for a given time.</javadoc>
+            <params>
+                <param type="int" name="time"/>
+            </params>
+            <throws/>
+            <body>
+                <call expression="Greenfoot.delay(time)" expression-java="Greenfoot.delay(time)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
