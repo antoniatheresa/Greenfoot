@@ -62,34 +62,59 @@
 
 <p> Dieses Szenario beinhaltete die "World Class" "CatWorld" und die "Actor Classes" "Cat" und "My Cat". In der "CatWorld" ist eine dicke Katze zu sehen.</p>
 
-<p> Im "cheat sheet" des "MyCat" "class editors" sindverschiedene "commands" zu sehen. Diese "Hotkeys" kann in den "oublic void act" durch Anklicken oder Einfügen des davor stehenden Symbols eingesetzt werden.</p>
+<p><img src="Greenfoot Images/FatCat.PNG" alt="FatCat" style="width:435px;height:542px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat Klassen.PNG" alt="FatCat Klassen" style="width:435px;height:542px;border:0;"></p>
+
+<p> Im "cheat sheet" des "MyCat" "class editors" sindverschiedene "commands" zu sehen. Diese "Hotkeys" kann in den "public void act" durch Anklicken oder Einfügen des davor stehenden Symbols eingesetzt werden.</p>
+
+<p><img src="Greenfoot Images/FatCat cheat sheet.PNG" alt="FatCat cheat sheet" style="width:435px;height:542px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat move 5.PNG" alt="FatCat move 5" style="width:435px;height:542px;border:0;"></p>
 
 <p> Mithilfe der Esc-Taste können die "Hotkeys" aus der Methode gelöscht werden. Befindet sich ein Text im "Hotkey", kann er durch die Esc-Funktion nicht mehr entfernt werden.</p>
 
-Durch Drücken der "Space"-Taste in der act-Methode können weitere Befehle eingesetzt werden. Diese können nicht nur durch die Esc-Funktion enfernt werden, sondern auchh durch die "Backspace"-Taste oder die "delete"-Funktion. Diese kann genutzt werden, indem man den "Hotkey" mit der rechten Maustaste anklickt und im Kontext-Menü delete auswählt.</p>
+<p>Durch Drücken der "Space"-Taste in der act-Methode können weitere Befehle eingesetzt werden. Diese können nicht nur durch die Esc-Funktion enfernt werden, sondern auch durch die "Backspace"-Taste oder die "delete"-Funktion. Diese kann genutzt werden, indem man den "Hotkey" mit der rechten Maustaste anklickt und im Kontext-Menü delete auswählt.</p>
 
-Durch die eingefügten Methodendreht sich der "Actor" (MyCat) in einem bestimmten Winkel um einen festgelegten Punkt in der "World Class" (CatWorls).</p>
+Durch die eingefügten Methodendreht sich der "Actor" (MyCat) in einem bestimmten Winkel um einen festgelegten Punkt in der "World Class" (CatWorld).</p>
+
+<p><img src="Greenfoot Images/FatCat move 10.PNG" alt="FatCat move 10" style="width:435px;height:542px;border:0;"></p>
 
 Um zu verhindern, dass der "Actor" (MyCat) eine Methode ausführt, ohne diese aus der "act-Methode" zu entfernen, muss die Funktion "disable" ausgeführt werden. Dazu muss man durch gedrückz halten der "Shift"-Taste und Bewegen des "Frame-Cursor" markiert werden. Dazu zieht man den "Frame-Cursor" über die Methode Durch anklicken der markierten Methode mit der rechten Maustaste kann im Kontext-Menü "disable" ausgewählt werden. Der "Actor" (MyCat) führt diese Methode nicht mehr aus.</p>
 
+<p><img src="Greenfoot Images/FatCat disabled.PNG" alt="FatCat disabled" style="width:435px;height:542px;border:0;"></p>
+
 <p> Wenn eine Methode wieder aktiviert werden soll, muss diese zunächst wieder durch die "Shift"-Taste und den "Frame-Cursor" markiert werden. Durch einen Klick mit der rechten Maustaste kann im Kontext-Menü die Funktion "enable" ausgewählt werden. Dies bewirkt, dass die Methode im im Editor erneut sichtbar wird un der "Actor" (MyCat) die Methode in der "CatWorld" wieder ausführt.</p>
+
+<p><img src="Greenfoot Images/FatCat enabled.PNG" alt="FatCat enabled" style="width:435px;height:542px;border:0;"></p>
 
 <p> Nach einem Rechtsklick auf den Actor (MyCat) in der "CatWorld" erscheinen verschiedene mögliche Funktionen. Bei Berühren des Menüpunkts "inherited from Actor" können Änderungen an der Umgebung und Interaktion des "Actors" mit der "World" vorgenommen werden. Bei dem Menüpunkt "inherited from Cat" werden dem Benutzer verschiedene Optionen zum Zustand und den Handlungen des "Actors" (MyCat) angeboten.</p>
 
 <p> Wählt man im "Class Editor" das Feld"extends Cat" aus, so erhält man ein ähnliches Bild wie beim Anklicken des "Actord" (MyCat) mit der rechten Maustaste. Auch hier kann zwischen "inherited from Actor" und "inherited from Cat" gwählt werden. Jedoch ist die Auswahl an Methoden in der "CatWorld" kleiner, als im "Class Editor".</p>
 
+<p><img src="Greenfoot Images/FatCat extended cat 1.PNG" alt="FatCat extended cat 1" style="width:435px;height:542px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat extended cat 2.PNG" alt="FatCat extended cat 2" style="width:435px;height:542px;border:0;"></p>
+
 <p> Das Layout des "Class Editors" (Cat) kann im "view"-Menü verändert werden. Durch Auswählen der "Birds-Eye"-Funktion werden nur die methoden Gruppen sichtbar (public void..), nicht die Methoden bzw. Hotkeys. Um die "Hotkeys" sehen zu können, müssen die Methoden angeklickt werden. Durch diese Funktion wird er "Class Edditor" übersichtlicher.</p>
 
-<p> Drückt man in einem freien Feld den "shortcut" "Strg" und "Space" zur automatischen Quelltext Ergänzung zeitgleich, so erscheint eine Art Kontext-Menü, aus dem man verschiedene Methoden auswählen kann., die in die entsprechende "public void"-Methode eingefügt werden können.<br>
+<p><img src="Greenfoot Images/FatCat birds eye.PNG" alt="FatCat birds eye" style="width:435px;height:542px;border:0;"></p>
+
+<p> Drückt man in einem freien Feld den "shortcut" "Strg" und "Space" zur automatischen Quelltext Ergänzung zeitgleich, so erscheint eine Art Kontext-Menü, aus dem man verschiedene Methoden auswählen kann, die in die entsprechende "public void"-Methode eingefügt werden können.<br>
 Tippt man nun einen Buchstaben, so werden alle Methoden angezeigt, die mit dem ausgewählten Buchstaben beginnen. Durch Anklicken können diese Methoden eingefügt werden.</p>
 
 <p> Da die "MyCat"-Klasse eine Unterklasse der "Cat"-Klasse ist können alle Methoden, die in der "Actor"-Klasse "Cat" programmiert sind, durch einen einfachen festgelegten Beferehl in der "MyCat"-Klasse eingefügt werden, ohne neu programmiert werden zu müssen." Dmait der "Actoe" "MyCat" isst, schläft und tanzt sobald act gestartet wird, müssen die Methoden "eat", "sleep(5)" und"dance" in die "Act"-Methode eingefügt werden.</p>
 
+<p><img src="Greenfoot Images/FatCat Klassen.PNG" alt="FatCat Klassen" style="width:435px;height:542px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat eat.PNG" alt="FatCat eat" style="width:435px;height:542px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat eat image.PNG" alt="FatCat eat image" style="width:435px;height:542px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat Routine.PNG" alt="FatCat Routine" style="width:435px;height:542px;border:0;"></p>
+
 <p> Durch den "if-Befehl" führt der "Actor" nur dann die Methode aus, wenn die angegebene Bedingung erfüllt ist. In diesem Fall schläft der "Actor" "MyCat" nur dann, wenn er müde ist, also die Bedingung "isTired" erfüllt ist. Diese boolschen Variablen, müssen als private boolsche Variablen für den Actor im "Class Editor" initiiert werden. Dazu setzt man die Variablen "isTired" und "isHungry" auf false bzw. "isBored" auf true.</p>
+
+<p><img src="Greenfoot Images/FatCat if.PNG" alt="FatCat if" style="width:435px;height:542px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat boolean.PNG" alt="FatCat boolean" style="width:435px;height:542px;border:0;"></p>
 
 <p> Soll der "Actor" eine andere Methode ausführen, wenn die Bedingung nicht erfüllt wurde, wird der "if-else" Hotkey eingefügt werden. Der "if"-Hotkey wird nun um eine "else"-Spalte ergänzt, in die die Methode eingefügt werden muss, die der "Actor audführen soll, wenn die "if"-Bedingung nicht erfüllt wird. In diesem Beispiel soll der "Actor", wenn er müde ist schlafen und hooray rufen. Ist er allerdings nicht mürde, ruft er nur hooray. Dazu wird der "if-else"-Befehl wie beschrieben angewendet. Damit die Bedingung "isTired" erfüllt, und die "if"-Methode ausgeführt werden kann, muss der "Actor" müde werden. Dazu muss die boolsche Variable "isTired", nachdem der "Actor" getanzt hat auf "true" gesetzt werden. Da die boolsche Variable "isBored" von Anfang an als "true" initiiert ist, beginnt der "Actor" beim Starten der "act"-Methode mit dem tanzen und wird daraufhin müde, was die Methode auslöst, die den "Actor" schlafen lässt. </p>
 
-
+<p><img src="Greenfoot Images/FatCat if else.PNG" alt="FatCat if else" style="width:435px;height:542px;border:0;"></p>
 
 <h3>
 <a id="Imp">4. <b>Impressum</b></a> 
