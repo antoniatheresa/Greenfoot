@@ -38,7 +38,7 @@ Im Anschluss daran haben wir mit der ersten "Lernaktivität Meet the Greeps" beg
 <h3>
 <a id="5"> <b> 5. Informatikstunde 09.03.2017 </b></a> 
 </h3> 
-<p>Zu beginn der Stunde konnten wir den ersten Teil der Lernaktivität "FatCat" beenden und im Anschluss dokumentieren.</p>
+<p>Zu Beginn der Stunde konnten wir den ersten Teil der Lernaktivität "FatCat" beenden und haben so neue Erkenntnisse über die "world" und den "actor" gewonnen. Unsere Ergebnisse konnten wir im Anschluss dokumentieren.</p>
 
 <h3>
 <a id="6"> <b> 6. Informatikstunde 15.03.2017 </b></a> 
@@ -57,4 +57,5 @@ Im Anschluss daran haben wir mit der ersten "Lernaktivität Meet the Greeps" beg
 
 <h3>
 <a id="9"> <b> 9. Informatikstunde 23.03.2017 </b></a> 
-</h3> 
+</h3> In dieser Stunde haben wir unser Projekt überarbeitet, Kleinigkeiten verändert und den Text zur Einführung in Greenfoot verfasst. 
+Außerdem haben wir die Maße der Bilder angepasst.
