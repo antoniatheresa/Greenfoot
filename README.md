@@ -105,7 +105,7 @@ Tippt man nun einen Buchstaben, so werden alle Methoden angezeigt, die mit dem a
 <p><img src="Greenfoot Images/FatCat Klassen.PNG" alt="FatCat Klassen" style="width:150px;height:235px;border:0;"></p>
 <p><img src="Greenfoot Images/FatCat eat.PNG" alt="FatCat eat" style="width:460px;height:446px;border:0;"></p>
 <p><img src="Greenfoot Images/FatCat eat image.PNG" alt="FatCat eat image" style="width:227px;height:261px;border:0;"></p>
-<p><img src="Greenfoot Images/FatCat Routine.PNG" alt="FatCat Routine" style="width:461px;height:379px;border:0;"></p>
+<p><img src="Greenfoot Images/Fat Cat Routine.PNG" alt="Fat Cat Routine" style="width:461px;height:379px;border:0;"></p>
 
 <p> Durch den "if-Befehl" führt der "Actor" nur dann die Methode aus, wenn die angegebene Bedingung erfüllt ist. In diesem Fall schläft der "Actor" "MyCat" nur dann, wenn er müde ist, also die Bedingung "isTired" erfüllt ist. Diese boolschen Variablen, müssen als private boolsche Variablen für den Actor im "Class Editor" initiiert werden. Dazu setzt man die Variablen "isTired" und "isHungry" auf false bzw. "isBored" auf true.</p>
 
@@ -114,7 +114,7 @@ Tippt man nun einen Buchstaben, so werden alle Methoden angezeigt, die mit dem a
 
 <p> Soll der "Actor" eine andere Methode ausführen, wenn die Bedingung nicht erfüllt wurde, wird der "if-else" Hotkey eingefügt werden. Der "if"-Hotkey wird nun um eine "else"-Spalte ergänzt, in die die Methode eingefügt werden muss, die der "Actor audführen soll, wenn die "if"-Bedingung nicht erfüllt wird. In diesem Beispiel soll der "Actor", wenn er müde ist schlafen und hooray rufen. Ist er allerdings nicht mürde, ruft er nur hooray. Dazu wird der "if-else"-Befehl wie beschrieben angewendet. Damit die Bedingung "isTired" erfüllt, und die "if"-Methode ausgeführt werden kann, muss der "Actor" müde werden. Dazu muss die boolsche Variable "isTired", nachdem der "Actor" getanzt hat auf "true" gesetzt werden. Da die boolsche Variable "isBored" von Anfang an als "true" initiiert ist, beginnt der "Actor" beim Starten der "act"-Methode mit dem tanzen und wird daraufhin müde, was die Methode auslöst, die den "Actor" schlafen lässt. </p>
 
-<p><img src="Greenfoot Images/FatCat if else.PNG" alt="FatCat if else" style="width:450px;height:668px;border:0;"></p>
+<p><img src="Greenfoot Images/FatCat ifelse.PNG" alt="FatCat ifelse" style="width:450px;height:668px;border:0;"></p>
 
 <h3>
 <a id="Imp">4. <b>Impressum</b></a> 
