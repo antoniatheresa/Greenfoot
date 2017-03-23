@@ -10,10 +10,10 @@
 <h3>
 <a id="Gre">1. <b>Greenfoot</b></a> 
 </h3> 
-<p> Bei Greenfoot geht es um das Erlernen des Programmierens in Java. Dazu wurden für das Projekt verschiedene Lernaktivitäten erstellt. Die vorbereiteten Greenfoot-Szenarien enthalten jeweils verschiedene Klassen mit unterschiedlichen Instanzen (Tiere wie "mycat" oder "greep"). Diese können auch als Unterklassen bezeichnet werden und beschreiben die Spezialisierung einer anderen Klasse. Symbolisiert wird das durch Pfeile im Klassendiagramm. Die Unterklasse besitzt alle Methoden der Oberklasse.
-Sobald eine Instanz in die "World" gesetzt wird, handelt es sich um einen "actor". Diese Instanzen können durch das Anlegen von Methoden verschiedene Aktionen ausführen, ergänzt man eine Methode um verschiedene Parameter, kann man der jeweiligen Methode mehr Daten übermitteln. Hat eine Methode den Zusatz "void", stellt diese Methode einen Befehl an den "actor" dar. Ohne diesen Zusatz handelt es sich um eine Frage an den "actor". 
-Diese zusätzlichen Funktionen werden als "Rückgabetypen" bezeichnet und werden wiederum um "Typen" ergänzt. Der "Typ" "int" wird für das Einfügen von Zahlen gebraucht, handelt es sich aber um "wahr/falsch"-Werte, muss "boolean" davorgesetzt werden. 
-Über den "Editor" der Klassen, kann der Quelltext dieser eingesehen und bearbeitet werden. Die Befehle werden in der Reihenfolge ausgeführt, in der sie im Quelltext erscheinen.
+<p> Bei Greenfoot geht es um das Erlernen des Programmierens in Java. Dazu wurden für das Projekt verschiedene Lernaktivitäten erstellt. Die vorbereiteten Greenfoot-Szenarien enthalten jeweils verschiedene Klassen mit unterschiedlichen Instanzen (Tiere wie "mycat" oder "greep"). Diese können auch als Unterklassen bezeichnet werden und beschreiben die Spezialisierung einer anderen Klasse. Symbolisiert wird das durch Pfeile im Klassendiagramm. Die Unterklasse besitzt alle Methoden der Oberklasse.<br>
+Sobald eine Instanz in die "World" gesetzt wird, handelt es sich um einen "actor". Diese Instanzen können durch das Anlegen von Methoden verschiedene Aktionen ausführen, ergänzt man eine Methode um verschiedene Parameter, kann man der jeweiligen Methode mehr Daten übermitteln. Hat eine Methode den Zusatz "void", stellt diese Methode einen Befehl an den "actor" dar. Ohne diesen Zusatz handelt es sich um eine Frage an den "actor". <br>
+Diese zusätzlichen Funktionen werden als "Rückgabetypen" bezeichnet und werden wiederum um "Typen" ergänzt. Der "Typ" "int" wird für das Einfügen von Zahlen gebraucht, handelt es sich aber um "wahr/falsch"-Werte, muss "boolean" davorgesetzt werden. <br>
+Über den "Editor" der Klassen, kann der Quelltext dieser eingesehen und bearbeitet werden. Die Befehle werden in der Reihenfolge ausgeführt, in der sie im Quelltext erscheinen.<br>
 Kommt es beim Programmieren zu einem Fehler im Code, wird dieser als Fehlermeldung am Rand des Editors angezeigt.</p> 
 
 <h3>
